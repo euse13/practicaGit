@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <canvas id="miCanvas" width="400" height="200"></canvas>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="name" >
+        
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+
+         <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" 
+               pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" 
+               title="La contraseña debe tener al menos 8 caracteres, incluyendo al menos una letra y un número."
+               minlength="8" maxlength="20" required> 
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" name="tel" maxlength="9" minlength="9">
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="date" value="2023-09-20" >
+
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color" value="#FF5733">
+
+        <label for="experiencia">Nivel de Experiencia:</label>
+        <input type="range" id="experiencia" name="experiencia" min="0" max="10" step="1" value="5">
+
+        <label for="archivo">Selecciona un archivo:</label>
+        <input type="file" id="archivo" name="archivo" >
+        
+        
+            <input  id="boton" type="submit" value="Enviar">
+    </form>
+
+    <script>
+        
+        var canvas = document.getElementById("miCanvas");
+        var context = canvas.getContext("2d");
+
+        
+        context.fillStyle = "blue";
+        context.fillRect(50, 50, 100, 100);
+    </script>
+
+
+</body>
+</html> 

@@ -1,0 +1,24 @@
+nav- La etiqueta <nav> en HTML se utiliza para definir una sección de navegación en una página web. Su función principal es indicar al navegador y a los motores de búsqueda que los enlaces o elementos contenidos en esta sección están relacionados con la navegación principal o estructural del sitio web.
+
+main- La etiqueta <main> en HTML5 se utiliza para identificar el contenido principal de una página web. Su función principal es indicar cuál es la parte central o principal de una página, donde se encuentra el contenido principal o relevante para los usuarios.
+
+section- La etiqueta HTML <section> es una de las etiquetas semánticas introducidas en HTML5 y se utiliza para definir una sección o bloque de contenido dentro de un documento HTML. Su principal función es ayudar a estructurar y organizar el contenido de una página web de manera más significativa y semántica.
+
+article- La etiqueta <article> en HTML es como una especie de "caja" o "contenedor" que se usa para marcar un pedazo de contenido importante y completo en una página web.
+
+aside- La etiqueta <aside> en HTML se utiliza para definir contenido secundario o complementario que está relacionado con el contenido principal de una página web, pero que puede considerarse como información adicional o de apoyo. El contenido dentro de una etiqueta <aside> suele ser contenido que puede ser considerado como "adicional" o "no esencial" para la comprensión principal del contenido de la página.
+
+figure- La etiqueta <figure> en HTML se utiliza para encapsular contenido multimedia, como imágenes, gráficos, videos dentro de un documento HTML 
+
+figcaption- La etiqueta <figcaption> en HTML se utiliza en combinación con la etiqueta <figure> para proporcionar una descripción o título a una figura o contenido multimedia, como una imagen o un elemento de video.
+
+El HTML5 proporciona soporte nativo de audio y vídeo, cuendo el HTML no.
+HTML5 es compatible con SVG (Scalable Vector Graphics), canvas y otros gráficos vectoriales cuando el HTML sólo es compatible con los gráficos vectoriales si se utiliza junto con otras tecnologías como Flash, VML (Vector Markup Language) o Silverlight.
+HTML5 te permite utilizar MathML y SVG inline en el texto y el HTML solo permite el MathML y el SVG en línea en el texto con un uso restringido.
+HTML5 permite a los usuarios dibujar formas como círculos, triángulos y rectángulos, cuando el HTML no lo hace.
+HTML5 utiliza las bases de datos SQL de la web, el almacenamiento local y la caché de la aplicación para almacenar los datos temporalmente, cuando  HTML sólo utiliza la caché del navegador y las cookies para almacenar datos temporalmente.
+En HTML5 El JavaScript y la interfaz del navegador se ejecutan en hilos separados, y en HTML se ejecutan juntos.
+HTML5 tiene la declaración de tipo de documento más corta que HTML.
+HTML5 tiene la declaración de codificación de caracteres más corta. Utiliza el conjunto de caracteres UTF-8, cuando HTML utiliza el conjunto de caracteres ASCII.
+HTML es compatible con casi todos los navegadores, cuando HTML5 solo es compatible con los navegadores más recientes, ya que hay muchas etiquetas y elementos nuevos que sólo admiten algunos navegadores.
+

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>TweetShirt</title>
+    <meta charset="utf-8" />
+	<style>
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
+	<script src="codigoJS.js"></script>
+</head>
+<body>
+    <canvas width="600" height="200" id="tshirtCanvas">
+	</canvas>
+
+	<form>
+	<p>
+		
+        <label for="color">Color de fondo:</label>
+        <input type="color" id="color" name="color" value="#FF5733">
+	</p>
+	<p>
+		<label for="shape">Circulos o cuadrados?</label>
+		<select id="shape">
+			<option value="squares" selected="selected">Cuadrados</option>
+			<option value="circles">Circles</option>
+		</select>
+	</p>
+	<p>
+		
+		<label for="shapeColor">Selecciona un color para las figuras:</label>
+		<input type="color" id="shapeColor" name="shapeColor" value="#FF5733">
+	</p>
+	<p>
+		
+		<label for="titulo">Titulo:</label>
+        <input type="text" id="titulo" name="titulo" >
+	</p>
+	<p>
+		<input type="button" id="previewButton" value="Preview">
+	</p>
+</form>
+
+
+
+</body>
+</html>
+
+
+
+

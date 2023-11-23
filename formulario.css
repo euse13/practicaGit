@@ -1,0 +1,25 @@
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: solid 3px black;
+    margin: auto;
+    width: 30%;
+    padding: 70px;
+
+}
+#boton{
+    background-color: green;
+    color: red;
+    height: 35px;
+    width: 175px;
+}
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
